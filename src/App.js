@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 import { type } from "@testing-library/user-event/dist/type";
@@ -88,6 +89,7 @@ function App() {
       ) : (
         "No Task to Show"
       )}
+      <Footer/>
     </div>
   );
 }
